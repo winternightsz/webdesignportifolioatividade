@@ -1,0 +1,59 @@
+ /*VARIAVEIS*/
+ :root {
+    --mainbg-color: #232946;
+    --2ndmainbg-color: #303861;
+    --2ndbg-color: #b8c1ec;  
+    --1sttext-color: #fffffe;
+    --2ndtext-color: #c2bfbf;
+    --btn-color: #eebbc3;
+    --2ndbtn-color: #fae4e8;
+    
+    --h1-font: 5.2rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;
+  }
+ 
+ /*PERFIL*/
+ .perfil{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10% 0;
+    background-color: var(--1stbg-color); /*pra essa secao ficar dessa cor*/
+}
+
+.perfil-container{
+    max-width: 500px;
+    max-height: 100%;
+    /*fazer tipo um quadradinho*/
+}
+
+.nomefoto {
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.perfil-container h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--2ndbg-color);
+}
+
+.perfil-container p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    color: var(--2ndbg-color);
+}
+
+.perfil-imagem{
+    width: 600px;
+    height: 600px;
+   
+}
+
+.imagem img{
+    max-width: 500px;
+    object-fit: cover;
+}

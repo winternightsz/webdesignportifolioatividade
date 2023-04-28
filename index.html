@@ -5,28 +5,38 @@
     <title>Portifolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <link rel="icon" href="images/twlogo.png" />
+    <link rel="icon" href="imagens/icon.png" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="perfil.css" />
+    <link rel="stylesheet" href="integrantes.css" />
+    <link rel="stylesheet" href="projetos.css" />
+    <link rel="stylesheet" href="sobre.css" />
+    <link rel="stylesheet" href="casos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+    <script defer src="main.js"></script>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   </head>
 
   <body>
     <!--NAVBAR-->
     <header>
-      <a href="#" class="logo"> <i class="bx bx-video-recording"></i>NOME</a>
+        <a href="#" class="logo">
+            <img src="imagens/LOGO.png" alt="logo" class="logos"></a>
       <ul class="navbar">
         <li><a href="#home" class="home-active">HOME</a></li> <!--# para buscar o id das sections-->
-        <li><a href="#experiencia">Experiencias</a></li>
-        <li><a href="#projeto">Projetos</a></li>
-        <li><a href="#algomaiss">Algomais</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#casos">Casos</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#sobre">Sobre</a></li>
       </ul>
-      <a href="#footerr" class="btn">ME CONTATE</a>
+      <a href="#footerr" class="btn">NOS CONTATE</a>
     </header>
 
     <!--PERFIL-->
     <section class="perfil" id="home">
       <div class="perfil-container">
-        <h1>NOME DA PESSOA</h1>
+        <img src="imagens/nome.png" alt="logo" class="nomefoto">
         <h3>TRABALHO DELA</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
@@ -41,54 +51,55 @@
 
     </section>
 
-    <!--EXPERIENCIAS-->
-    <section class="experiencias" id="experiencia">
-      <div class="cabecatexto">
-        <h2>EXPERIENCIAS</h2>
-        <h4>Minhas Experiencias</h4>
-      </div>
-
-      <div class="boxes">
-        <!--BOX 1-->
-            <div class="box">
-            <i class="bx bx-laugh"></i>
-            <h3>Alguma Coisa</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                nostrum, ab suscipit explicabo delectus eos fugiat dolorum
-                voluptatibus repudiandae voluptatem.
-            </p>
-            </div>
-            <!--BOX 2-->
-            <div class="box">
-            <i class="bx bx-happy-alt"></i>
-            <h3>Alguma Coisa</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                nostrum, ab suscipit explicabo delectus eos fugiat dolorum
-                voluptatibus repudiandae voluptatem.
-            </p>
-            </div>
-            <!--BOX 3-->
-            <div class="box">
-            <i class="bx bx-happy-alt"></i>
-            <h3>Alguma Coisa</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                nostrum, ab suscipit explicabo delectus eos fugiat dolorum
-                voluptatibus repudiandae voluptatem.
-            </p>
-            </div>
-      </div>
-    </section>
     <!--PROJETOS-->
-    <section class="projetos" id="projeto">
+    <section class="projetos" id="projetos">
         <div class="cabecatexto">
-            <h2>PROJETOS</h2>
-            <h4>Meus Projetos</h4>
+          <h2>PROJETOS</h2>
+          <h4>Nossos Projetos</h4>
+        </div>
+  
+        <div class="boxes">
+          <!--BOX 1-->
+              <div class="box">
+              <i class="bx bx-laugh"></i>
+              <h3>Alguma Coisa</h3>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                  nostrum, ab suscipit explicabo delectus eos fugiat dolorum
+                  voluptatibus repudiandae voluptatem.
+              </p>
+              </div>
+              <!--BOX 2-->
+              <div class="box">
+              <i class="bx bx-happy-alt"></i>
+              <h3>Alguma Coisa</h3>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                  nostrum, ab suscipit explicabo delectus eos fugiat dolorum
+                  voluptatibus repudiandae voluptatem.
+              </p>
+              </div>
+              <!--BOX 3-->
+              <div class="box">
+              <i class="bx bx-happy-alt"></i>
+              <h3>Alguma Coisa</h3>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                  nostrum, ab suscipit explicabo delectus eos fugiat dolorum
+                  voluptatibus repudiandae voluptatem.
+              </p>
+              </div>
+        </div>
+      </section>
+
+    <!--CASOS-->
+    <section class="casos" id="casos">
+        <div class="cabecatexto">
+            <h2>CASOS</h2>
+            <h4>Nossos Casos Resolvidos</h4>
           </div>
 
-        <div class="projetos-container">
+        <div class="casos-container">
 
             <!--LINHA 1 EL 1-->
             <div class="linha">
@@ -171,10 +182,66 @@
             
         </div>  
     </section>
-    <!--ALGOMAIS-->
-    <section class="algomais" id="algomaiss">
 
+    <!--INTEGRANTES-->
+    <section class="int" id="integrantes">
+        <div class="cabecatexto">
+            <h2>INTEGRANTES</h2>
+            <h4>Integrantes do Misterios SA</h4>
+        </div>
+
+          
     </section>
+    <!--SOBRE-->
+    <section class="sobre" id="sobre">
+        <div class="cabecatexto">
+            <h2>Sobre</h2>
+            <h4>Sobre Nossa Empresa</h4>
+        </div>
+    
+        <div class="sobres-container">
+                    <!--BOX 1-->
+            <div class="sobres">
+                <div class="sobres-img">
+                    <div class="front"><img src="images/coca.png" alt="Picture of coke" class=""></div>
+                    <div class="back"><h1>Back of the card</h1></div>
+                </div>
+
+                <div class="baixonome">
+                    <h3>COCA</h3>
+                    <span>ALGO</span>
+                    <span>algo</span>
+                </div>
+            </div>
+                    <!--BOX 2-->
+                    <div class="sobres">
+                        <div class="sobres-img">
+                            <div class="front"><img src="images/coca.png" alt="Picture of coke" class=""></div>
+                            <div class="back"><h1>Back of the card</h1></div>
+                        </div>
+        
+                        <div class="baixonome">
+                            <h3>COCA</h3>
+                            <span>ALGO</span>
+                            <span>algo</span>
+                        </div>
+                    </div>
+                    <!--BOX 3-->
+                    <div class="sobres">
+                        <div class="sobres-img">
+                            <div class="front"><img src="images/coca.png" alt="Picture of coke" class=""></div>
+                            <div class="back"><h1>Back of the card</h1></div>
+                        </div>
+        
+                        <div class="baixonome">
+                            <h3>COCA</h3>
+                            <span>ALGO</span>
+                            <span>algo</span>
+                        </div>
+                    </div>                                    
+        </div>  
+    </section>
+   
     <!--FOOTER-->
     <section class="footer" id="footerr">
         <div class="contato-esquerda">

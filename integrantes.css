@@ -1,0 +1,14 @@
+.int {   
+    align-items: center;
+    background-color: var(--2ndbg-color); 
+}
+/*Boxes*/
+
+.conatiner {
+  width: 100%;
+  min-height: 1152px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: rgb(2, 3, 7, 0.4);
+}

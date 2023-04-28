@@ -1,0 +1,83 @@
+/*VARIAVEIS*/
+:root {
+    --mainbg-color: #232946;
+    --2ndmainbg-color: #303861;
+    --2ndbg-color: #b8c1ec;  
+    --1sttext-color: #fffffe;
+    --2ndtext-color: #c2bfbf;
+    --btn-color: #eebbc3;
+    --2ndbtn-color: #fae4e8;
+    
+    --h1-font: 5.2rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;
+  }
+
+/*EXPERIENCIAS*/
+
+.projetos {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--2ndbg-color); 
+}
+
+.cabecatexto{
+    text-align: center;
+}
+
+.cabecatexto h2{
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+}
+
+.cabecatexto h4 {
+    color: var(--mainbg-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 5rem; 
+}
+
+.box{
+    padding: 45px;
+    background-color: var(--1sttext-color);
+    border-top: 5px solid transparent;
+    transition: all .40s ease;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.box .bx{
+  color: #fae4e8;
+  font-size: 60px;
+
+}
+.box h3{
+  color: var(--mainbg-color);
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+    transition: all .40s ease;
+}
+
+.box p{
+    color: var(--mainbg-color);  
+    font-size: var(--p-font);
+    line-height: 30px;
+}
+
+.box:hover{                                   /*aparecer a borda quando bota o mouse em cima*/
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid var(--btn-color);
+}
+
+.box:hover h3{
+  color: var(--btn-color);
+}

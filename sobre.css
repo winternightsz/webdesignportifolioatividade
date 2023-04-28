@@ -1,0 +1,71 @@
+/*algomais*/
+.sobre {
+    width: 100%;
+      height: 100vh;  
+      align-items: center;
+      background-color: var(--btn-color); 
+  }
+
+  /*produtos*/
+
+.sobres-container {
+  max-width: 2000px;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 30px));
+  gap: 5rem;
+  
+}
+.sobres-img{
+  width: 100%;
+  height: 100%;
+  transition: 1500ms;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 100px;
+}
+.sobres-img:hover{
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back{
+  background: #2b37554b;
+  transform: rotateY(180deg);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 4px 3px 5px #0000004f;
+}
+
+.sobres .sobres-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 4px 3px 5px #0000004f;
+}
+
+.sobres h3 {
+  
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.sobres span {
+  display: flex;
+  font-size: 25px;
+}

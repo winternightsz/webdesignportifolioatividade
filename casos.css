@@ -1,0 +1,53 @@
+.casos {
+    background-color: var(--btn-color);  /*cor dessa secao pode ser tbm1stbg*/
+    width: 100%;
+     
+  }
+  .casos-container {       /*copiado de .boxes*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem; 
+  }
+  
+  .linha img{
+    height:auto;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .linha{
+    padding: 25px;
+    border-radius: 0.5rem;
+    background-color: #f2d0d5;
+    transition: all .40s ease;
+  }
+  
+  .linha-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .linha h3{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .linha h6{
+    color: var(--mainbg-color);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .linha-icon i{
+    font-size: 21px;
+  }
+  
+  .linha:hover {
+    transform: scale(1.01) translateY(-5px);
+    cursor: pointer;
+  }
