@@ -1,4 +1,4 @@
- /*VARIAVEIS*/
+ /*VARIAVEIS
  :root {
     --mainbg-color: #232946;
     --2ndmainbg-color: #303861;
@@ -11,7 +11,7 @@
     --h1-font: 5.2rem;
     --h2-font: 3.5rem;
     --p-font: 1.1rem;
-  }
+  }*/
  
  /*PERFIL*/
  .perfil{
@@ -38,13 +38,13 @@
 .perfil-container h3 {
     font-size: 32px;
     font-weight: 700;
-    color: var(--2ndbg-color);
+    color: var(--1sttext-color-color);
 }
 
 .perfil-container p {
     font-size: 16px;
     margin: 20px 0 40px;
-    color: var(--2ndbg-color);
+    color: var(--1sttext-color-color);
 }
 
 .perfil-imagem{

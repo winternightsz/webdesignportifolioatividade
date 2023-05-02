@@ -1,48 +1,53 @@
-.int {   
-    align-items: center;
-    background-color: var(--2ndbg-color); 
-}
-/*Boxes*/
-
-.conatiner {
-  width: 100%;
-  min-height: 1152px;
-  position: relative;
-  display: flex;
+.ints {
+ 
   align-items: center;
-  background: rgb(2, 3, 7, 0.4);
+  background-color: var(--2ndbg-color); 
+}
+
+.cabecatexto{
+  text-align: center;
+}
+
+.cabecatexto h2{
+  font-size: var(--h2-font);
+  margin-bottom: 10px;
+}
+
+.cabecatexto h4 {
+  color: var(--mainbg-color);
+  font-size: 24px;
+  font-weight: 600;
 }
 
  /*INTEGRANTES*/
- .int{
-  width: 100%;
-  height: 100vh;
+ .scooby{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 70px 10% 0;
-  background-color: var(--1stbg-color); /*pra essa secao ficar dessa cor*/
-}
+  background-color: var(--1stbg-color);
+ }
 
-.int-containers{
+.cont-text{
   max-width: 500px;
   max-height: 100%;
+  /*background-color: #fae4e8;*/
   /*fazer tipo um quadradinho*/
 }
 
-.int-containers h1 {
+.cont-text h1 {
   font-size: 32px;
   font-weight: 700;
-  color: var(--2ndbg-color);
+  color: var(--1sttext-color-color);
 }
 
-.int-containers p {
+.cont-text p {
   font-size: 16px;
   margin: 20px 0 40px;
-  color: var(--2ndbg-color);
+  color: var(--1sttext-color-color);
 }
 
-.img-cont{
+.perfil-imagems{
   width: 600px;
   height: 600px;
  
@@ -52,11 +57,6 @@
   max-width: 500px;
   object-fit: cover;
 }
-
-
-
-
-
 
 
   /*footer*/

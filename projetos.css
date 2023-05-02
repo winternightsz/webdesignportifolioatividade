@@ -1,4 +1,4 @@
-/*VARIAVEIS*/
+/*VARIAVEIS
 :root {
     --mainbg-color: #232946;
     --2ndmainbg-color: #303861;
@@ -11,7 +11,7 @@
     --h1-font: 5.2rem;
     --h2-font: 3.5rem;
     --p-font: 1.1rem;
-  }
+  }*/
 
 /*EXPERIENCIAS*/
 
@@ -55,7 +55,7 @@
     cursor: pointer;
 }
 .box .bx{
-  color: #fae4e8;
+  color: var(--2ndbtn-color);
   font-size: 60px;
 
 }

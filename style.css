@@ -14,13 +14,13 @@
 
 /*VARIAVEIS*/
 :root {
-  --mainbg-color: #232946;
-  --2ndmainbg-color: #303861;
-  --2ndbg-color: #b8c1ec;  
+  --mainbg-color: #128a84;
+  --2ndmainbg-color: #219a94;
+  --2ndbg-color: #4b0055;  
   --1sttext-color: #fffffe;
   --2ndtext-color: #c2bfbf;
-  --btn-color: #eebbc3;
-  --2ndbtn-color: #fae4e8;
+  --btn-color: #8e6345;
+  --2ndbtn-color: #9a7155;
   
   --h1-font: 5.2rem;
   --h2-font: 3.5rem;
@@ -57,6 +57,10 @@ header {
   transition: 0.5s;
 }
 
+li {
+  list-style: none;
+  }
+  
 .logo {
   font-size: 2rem;
   font-weight: 500;
@@ -73,6 +77,9 @@ header {
 .navbar {
   display: flex;
   column-gap: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar li {
@@ -84,6 +91,39 @@ header {
   font-weight: 500;
   color: var(--1sttext-color);
 }
+
+/* DROPDOWN MENU */
+.int-drop {
+  position: relative; 
+  }
+  
+  .drop {
+  background-color: var(--mainbg-color);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+  }
+  
+  .drop li + li {
+  margin-top: 10px;
+  }
+  
+  .drop li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+  }
+  
+  .drop li:hover {
+  background-color: var(--2ndmainbg-color);
+  }
+  
+  .int-drop:hover .drop {
+  display: block;
+  }
+
 
 .navbar a::after { /*pra fazer a barrinha em baixo*/
   content: "";
@@ -106,6 +146,8 @@ header {
   z-index: 1000001;
   display: none;
 }
+
+
 .btn {
   padding: 0.7rem 1.4rem;
   background: var(--btn-color);
@@ -116,7 +158,7 @@ header {
 }
 
 .btn:hover {
-  background: #fec7d7;
+  background: var(--2ndbtn-color);
 }
 
 
@@ -200,7 +242,7 @@ header {
   
   .redes-icon i:hover{
     transform: scale(1.01) translateY(-5px);
-    color: #fae4e8;
+    color:  var(--2ndbtn-color);
   }
   
   .contatar form {
@@ -234,7 +276,7 @@ header {
     cursor: pointer;
   }
   .contatar form .enviar:hover {
-    background-color: #fae4e8;
+    background-color:  var(--2ndbtn-color);
   }
   
   /*final da pg*/
