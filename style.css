@@ -14,18 +14,23 @@
 
 /*VARIAVEIS*/
 :root {
-  --mainbg-color: #128a84;
-  --2ndmainbg-color: #219a94;
-  --2ndbg-color: #4b0055;  
+  --navbar-color: #240c33;
+  --mainbg-color: #38184C;
+  --2ndmainbg-color: #693d85;
+  --casosbox-color: #3d1357;
+  --2ndbg-color: #1C646D; 
+  --2ndbglight-color: #4ca1acc0;
   --1sttext-color: #fffffe;
   --2ndtext-color: #c2bfbf;
-  --btn-color: #8e6345;
-  --2ndbtn-color: #9a7155;
+  --btn-color: #47949e;
+  --2ndbtn-color: #6fb4bd;
   
   --h1-font: 5.2rem;
   --h2-font: 3.5rem;
   --p-font: 1.1rem;
 }
+
+
 /*fazer uma barra de scroll personalizada*/
 html::-webkit-scrollbar {
   width: 0.5rem;
@@ -55,6 +60,7 @@ header {
   justify-content: space-between;
   padding: 20px 100px;
   transition: 0.5s;
+  background-color: var(--navbar-color);
 }
 
 li {
@@ -75,11 +81,11 @@ li {
 }
 
 .navbar {
-  display: flex;
   column-gap: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .navbar li {
@@ -93,15 +99,11 @@ li {
 }
 
 /* DROPDOWN MENU */
-.int-drop {
-  position: relative; 
-  }
-  
   .drop {
   background-color: var(--mainbg-color);
   padding: 1em 0;
   position: absolute; /*WITH RESPECT TO PARENT*/
-  display: none;
+  display: none; 
   border-radius: 8px;
   top: 35px;
   }
@@ -120,8 +122,9 @@ li {
   background-color: var(--2ndmainbg-color);
   }
   
-  .int-drop:hover .drop {
+  .drop:hover {
   display: block;
+  position: absolute;
   }
 
 
@@ -304,6 +307,6 @@ li {
     padding: 10px;
     border-radius: 0.5rem;
   }
-  
+
 
 

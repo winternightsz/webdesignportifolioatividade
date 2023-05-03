@@ -25,7 +25,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 70px 10% 0;
-  background-color: var(--1stbg-color);
+  background-color: var(--2ndbglight-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
  }
 
 .cont-text{

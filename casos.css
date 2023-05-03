@@ -20,7 +20,7 @@
   .linha{
     padding: 25px;
     border-radius: 0.5rem;
-    background-color: #f2d0d5;
+    background-color: var(--2ndbtn-color);
     transition: all .40s ease;
   }
   
