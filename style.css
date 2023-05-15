@@ -23,7 +23,7 @@
   --1sttext-color: #fffffe;
   --2ndtext-color: #c2bfbf;
   --btn-color: #47949e;
-  --2ndbtn-color: #6fb4bd;
+  --2ndbtn-color: #76c6d1;
   
   --h1-font: 5.2rem;
   --h2-font: 3.5rem;
@@ -100,32 +100,38 @@ li {
 
 /* DROPDOWN MENU */
   .drop {
-  background-color: var(--mainbg-color);
+  background-color: var(--navbar-color);
   padding: 1em 0;
   position: absolute; /*WITH RESPECT TO PARENT*/
   display: none; 
   border-radius: 8px;
   top: 35px;
+  
   }
   
   .drop li + li {
   margin-top: 10px;
+  
   }
   
   .drop li {
   padding: 0.5em 1em;
   width: 8em;
   text-align: center;
+  border: 2px solid var(--2ndmainbg-color);
+
   }
   
   .drop li:hover {
   background-color: var(--2ndmainbg-color);
+  
   }
   
-  .drop:hover {
-  display: block;
-  position: absolute;
+  .navbar li:hover .drop, .drop:hover {
+    display: block;
+    position: absolute;
   }
+  
 
 
 .navbar a::after { /*pra fazer a barrinha em baixo*/
@@ -192,7 +198,7 @@ li {
   }
   .contato-esquerda h2 {
     font-size: var(--h2-font);
-    color: var(--1sttext-color);
+    color: var(--2ndtext-color);
   }
   .contato-esquerda p{
     color: #dadada;
@@ -292,21 +298,7 @@ li {
     letter-spacing: 1px;
   }
   
-  .comeco{
-    position: fixed; /*vai ficar no mesmo lugar na tela mesmo quando mexe*/
-    bottom: 2.1rem;
-    right: 2.1rem;
-  
-  }
-  
-  .comeco i {
-    color: var(--1sttext-color);
-    background-color: var(--btn-color);
-    box-shadow: 4px 3px 10px #0000003c;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 0.5rem;
-  }
+ 
 
 
 

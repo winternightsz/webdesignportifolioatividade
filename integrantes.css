@@ -55,10 +55,18 @@
   height: 600px;
  
 }
-
-.img-cont img{
+.scooby .perfil-imagems .img-cont{
+  height: 550px;
+  width: 500px;
+  
+}
+.scooby .perfil-imagems .img-cont img{
+  max-height: 550px;
   max-width: 500px;
-  object-fit: cover;
+  object-fit:cover;
+    
+  
+ 
 }
 
 
