@@ -14,17 +14,7 @@
 
 /*VARIAVEIS*/
 :root {
-  --navbar-color: #240c33;
-  --mainbg-color: #38184C;
-  --2ndmainbg-color: #693d85;
-  --casosbox-color: #3d1357;
-  --2ndbg-color: #1C646D; 
-  --2ndbglight-color: #4ca1acc0;
-  --1sttext-color: #fffffe;
-  --2ndtext-color: #c2bfbf;
-  --btn-color: #47949e;
-  --2ndbtn-color: #76c6d1;
-
+ 
   --navbar-color: #5fb9b3;
   --mainbg-color: #f9fffd;
   --2ndmainbg-color: #693d85;
@@ -193,11 +183,12 @@ li {
   color: var(--1sttext-color);
   font-weight: 400;
   border-radius: 0.5rem;
-  box-shadow: 4px 3px 10px #0000003c;
+  box-shadow: 4px 3px 10px 2px #0f1e1d6c;
 }
 
 .btn:hover {
   background: var(--2ndbtn-color);
+  box-shadow: 9px 9px 10px 4px #0f1e1d72;
 }
 
 
@@ -512,7 +503,7 @@ box-shadow: 2px 2px 4px 3px #1818182b;
   object-fit: cover;
   border-radius: 10px;
   background-color: brown;
-          /* offset-x | offset-y | blur-radius | spread-radius | color */
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
 box-shadow: 2px 2px 4px 3px #1818182b;  
 }
 
@@ -1089,7 +1080,7 @@ box-shadow: 2px 2px 4px 3px #1818182b;
       }
     }
 
-    @media (max-width: 429px) {
+    @media (max-width: 420px) {
       header {
         padding: 6px 4%;
       }
