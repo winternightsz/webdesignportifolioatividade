@@ -2,18 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Portifolio</title>
+    <title>Mystery Inc</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <link rel="icon" href="imagens/icon.png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="perfil.css" />
-    
-    <link rel="stylesheet" href="projetos.css" />
-    <link rel="stylesheet" href="sobre.css" />
-    <link rel="stylesheet" href="casos.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
 
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+    <script defer src="main.js"></script>r
 
   </head>
 
@@ -22,11 +19,12 @@
     <header>
         <a href="#" class="logo">
             <img src="imagens/LOGO.png" alt="logo" class="logos"></a>
+            <div class="bx bx-menu" id="menu-icon"></i></div>
       <ul class="navbar">
         <li><a href="#home" class="home-active">HOME</a></li> <!--# para buscar o id das sections-->
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#casos">Casos</a></li>
-        <li><a href="integrantes.html" >Integrantes</a>
+        <li><a href="#projetos">PROJETOS</a></li>
+        <li><a href="#casos">CASOS</a></li>
+        <li><a href="integrantes.html" >INTEGRANTES</a>
             <ul class="drop">
                 <li><a href="integrantes.html#scoobydoo">Scooby</a></li>
                 <li><a href="integrantes.html#salsicha">Salsicha</a></li>
@@ -35,7 +33,7 @@
                 <li><a href="integrantes.html#fred">Fred</a></li>               
             </ul>
         </li>
-        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#sobre">SOBRE</a></li>
       </ul>
       <a href="#footerr" class="btn">NOS CONTATE</a>
     </header>
@@ -44,9 +42,9 @@
     <section class="perfil" id="home">
       <div class="perfil-container">
         <img src="imagens/nome.png" alt="logo" class="nomefoto">
-        <h3>TRABALHO DELA</h3>
+        <h3>DETETIVES</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nobis
           voluptate nostrum eum iure dolor possimus beatae esse fuga nemo odit!
         </p>
       </div>
@@ -54,8 +52,9 @@
         <div class="imagem">
           <img src="imagens/perfil.png" alt="foto da pessoa" />
         </div>
+        <div class="quadradoinclinado"></div>
       </div>
-
+      
     </section>
 
     <!--PROJETOS-->
@@ -73,22 +72,24 @@
                         <div class="textos-box">
                             <h3>HEX GIRLS</h3>
                             <p>
-                                Ja trabalhamos para as Hex Girls, para 
-                                solucionar o misterio de Yowie Yahoo.
+                                Ja trabalhamos para as Hex Girls, em um festival 
+                                australiano, para solucionar o misterio de Yowie 
+                                Yahoo.
+                                
                             </p>
                         </div>
                 </div>
                 <!--BOX 2-->
                 <div class="box">
                     
-                        <img src="imagens/ghost.png" alt="">
+                        <img src="imagens/camp.png" alt="">
                     
                         <div class="textos-box">
-                            <h3>Alguma Coisa</h3>
+                            <h3>ACAMPAMENTO BIG MOOSE</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                                nostrum, ab suscipit explicabo delectus eos fugiat dolorum
-                                voluptatibus repudiandae voluptatem.
+                                Ja trabalhamos junto ao Acampamento Big Moose, para 
+                                solucionar o misterio de "Woodsman".
+                                
                             </p>
                         </div>
                             </div>
@@ -96,14 +97,14 @@
                 <!--BOX 3-->
                 <div class="box">
                     
-                        <img src="imagens/ghost.png" alt="">
+                        <img src="imagens/academy.png" alt="">
                     
-                        <div class="textos-box">
-                            <h3>Alguma Coisa</h3>
+                        <div class="textos-box" id="academia">
+                            <h3>ACADEMIA DE MAGIA DOS IRMAOS MERLIN</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-                                nostrum, ab suscipit explicabo delectus eos fugiat dolorum
-                                voluptatibus repudiandae voluptatem.
+                                Ja trabalhamos para a Academia de Magia, para 
+                                solucionar o misterio do "Gryphon".
+                                
                             </p>
                         </div>
                             </div>
@@ -299,7 +300,7 @@
     </section> 
     
     <div class="copyright">
-        <p>Desenvolvido por alguem ® 2023 </p>
+        <p>Mystery Inc. ® 2023 </p>
     </div>
 
     <!--VOLTAR COMECO-->

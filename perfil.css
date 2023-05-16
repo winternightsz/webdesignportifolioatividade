@@ -20,18 +20,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px 10% 0;
+    padding: 50px 10% 0;
     background-color: var(--1stbg-color); /*pra essa secao ficar dessa cor*/
 }
 
 .perfil-container{
-    max-width: 500px;
-    max-height: 100%;
+    max-width: 900px;
+    max-height: 900px;
+    
     /*fazer tipo um quadradinho*/
 }
 
 .nomefoto {
-    max-width: 500px;
+    width: 515.1px;
+    height: 263.5px;
     object-fit: cover;
 }
 
@@ -48,12 +50,30 @@
 }
 
 .perfil-imagem{
-    width: 600px;
-    height: 600px;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(132, 237, 255);
+    border: 26px solid grey;
+    border-radius: 50%;
+    
 }
 
-.imagem img{
-    max-width: 500px;
-    object-fit: cover;
+.imagem img{ 
+    width: 570px;
+    height: 100%;
+    padding-left: 80px;
+    object-fit: cover; 
+}
+.quadradoinclinado {
+    
+    margin-top: 900px;
+    width: 700px;
+    padding-bottom: 300px;
+    height: 400px;
+    background-color: grey;
+    transform: rotate(-40deg);
+    
 }
