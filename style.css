@@ -795,10 +795,16 @@ color: var(--2ndbtn-color);
         align-items: center;
         row-gap: 1rem;
       }
+      .projetos {
+            width: 100%;
+            height: 190vh;
+            align-items: center;
+            background-color: var(--2ndbg-color); 
+          }
 
       .sobre{
         width: 100%;
-        height: 90vh;
+        height: 120vh;
 
       }
       .sobres-container {
@@ -816,7 +822,7 @@ color: var(--2ndbtn-color);
       }
       .sobres-img{
             width: 100%;
-            height: 10vh;
+            height: 30vh;
               
       }
       .sobres .sobres-img img {
