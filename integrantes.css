@@ -1,8 +1,17 @@
-.ints {
-  align-items: center;
-  background-color: var(--2ndbg-color);
+body {
+  background: var(--mainbg-color);
+  color: var(--1sttext-color);
+  
+}
+.flw{
+  background-image: url('imagens/flower2.png');
+  background-repeat:repeat;
 }
 
+.ints {
+  align-items: center;
+}
+  
 .cabecatexto {
   text-align: center;
 }
