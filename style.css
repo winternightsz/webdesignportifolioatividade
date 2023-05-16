@@ -1089,7 +1089,7 @@ box-shadow: 2px 2px 4px 3px #1818182b;
       }
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 429px) {
       header {
         padding: 6px 4%;
       }
