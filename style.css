@@ -1068,12 +1068,16 @@ box-shadow: 2px 2px 4px 3px #1818182b;
         justify-content: center;
         gap: 1rem ;
       }
+      .sobre{
+        width: 100%;
+        height: 120vh;
+      }
       .sobres {
         width: 100%;
       }
       .sobres-img{
             width: 100%;
-            height: 10vh;
+            height: 30vh;
               
       }
       .sobres .sobres-img img {
